@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional - Minha trajetória de carreira" />
+  <title>Marcelo Alves | Analista de Sistemas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Cursor personalizado (desktop) -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Navegação -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Marcelo Alves</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Início</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#timeline" class="nav-link">Trajetória</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#objetivos" class="nav-link">Objetivos</a></li>
+        <li><a href="#drawmylife" class="nav-link">Draw My Life</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-orbs" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-greeting reveal reveal-delay-1">Olá, eu sou</p>
+      <h1 class="hero-name reveal reveal-delay-2">Marcelo Alves</h1>
+      <p class="hero-title reveal reveal-delay-3">Analista de Sistemas | TI | Suporte e Infraestrutura</p>
+      <p class="hero-desc reveal reveal-delay-4">
+        Transformando tecnologia em soluções práticas e confiáveis.
+        Uma trajetória de suporte, gestão de TI e aprendizado contínuo.
+      </p>
+      <div class="hero-cta reveal reveal-delay-5">
+        <a href="#timeline" class="btn btn-primary">Ver Trajetória</a>
+        <a href="#drawmylife" class="btn btn-outline">Assistir Draw My Life</a>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">Sobre Mim</h2>
+      <div class="about-grid">
+        <div class="about-photo reveal-left">
+          <div class="photo-frame">
+            <img src="marcelo.jpg" alt="Marcelo Alves" width="400" height="500" loading="lazy" />
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <p class="lead">
+            Sou Analista de Sistemas, com formação em Análise e Desenvolvimento de Sistemas
+            e experiência sólida em suporte, infraestrutura e gestão de TI.
+          </p>
+          <p>
+            Ao longo da carreira, atuei em ambientes corporativos, no setor público e em provedor de internet,
+            sempre com foco em resolver problemas, manter sistemas estáveis e apoiar pessoas e equipes
+            no uso da tecnologia.
+          </p>
+          <div class="motto-timeline">
+            <div class="motto-item">
+              <div class="motto-point"></div>
+              <p class="stat-motto">Aprendo constantemente, adapto-me rapidamente.</p>
+            </div>
+            <div class="motto-item">
+              <div class="motto-point"></div>
+              <p class="stat-motto">Foco na solução, não no problema.</p>
+            </div>
+            <div class="motto-item">
+              <div class="motto-point"></div>
+              <p class="stat-motto">Construo pontes, não barreiras.</p>
+            </div>
+          </div>
+          <div class="about-card about-card-inline">
+            <div class="card-inner">
+              <h3>Valores</h3>
+              <ul>
+                <li>Aprendizado contínuo</li>
+                <li>Colaboração</li>
+                <li>Impacto real</li>
+                <li>Criatividade</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline / Trajetória -->
+  <section class="timeline-section section" id="timeline">
+    <div class="container">
+      <h2 class="section-title reveal">Minha Trajetória</h2>
+      <p class="section-subtitle reveal">Uma linha do tempo interativa da minha carreira</p>
+      
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">6 a 7 anos</span>
+            <h3>Técnico em Informática · JOMARMA Informática Ltda (Perfil Informática)</h3>
+            <p>Suporte em hardware e software de clientes.</p>
+            <div class="tags">
+              <span class="tag">Hardware</span>
+              <span class="tag">Software</span>
+              <span class="tag">Suporte técnico</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">6 anos</span>
+            <h3>Diretor de TI · Prefeitura Municipal de Monte Santo de Minas</h3>
+            <p>Suporte em toda a rede relacionada ao setor público do município, auxílio aos funcionários e administração do departamento de TI.</p>
+            <div class="tags">
+              <span class="tag">Gestão de TI</span>
+              <span class="tag">Rede pública</span>
+              <span class="tag">Suporte</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">1 ano e 6 meses</span>
+            <h3>Técnico de Campo · FALEMAIS TELECOM</h3>
+            <p>Suporte a clientes e novas ativações de internet fibra e wireless. Manutenção em toda a estrutura do provedor.</p>
+            <div class="tags">
+              <span class="tag">Fibra / Wireless</span>
+              <span class="tag">Ativação</span>
+              <span class="tag">Infraestrutura</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Competências</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          </div>
+          <h3>Formação técnica</h3>
+          <ul class="soft-list">
+            <li><strong>Graduação completa</strong> — Análise e Desenvolvimento de Sistemas (UNIFECAF)</li>
+            <li><strong>Técnico em Eletrônica</strong> — Escola Técnica João Baptista de Lima Figueiredo (Mococa-SP)</li>
+            <li><strong>Técnico em Informática</strong> — IFSUL Campus Inconfidentes</li>
+            <li><strong>Inglês Técnico</strong> — Uaitec</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Soft Skills</h3>
+          <ul class="soft-list">
+            <li>Comunicação</li>
+            <li>Resolução de problemas</li>
+            <li>Trabalho em equipe</li>
+            <li>Adaptabilidade</li>
+            <li>Criatividade</li>
+          </ul>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Objetivos -->
+  <section class="objetivos section" id="objetivos">
+    <div class="container">
+      <h2 class="section-title reveal">Objetivos</h2>
+      <p class="section-subtitle reveal">Crescimento com mentalidade ágil</p>
+
+      <div class="objetivos-card reveal">
+        <div class="objetivos-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <div class="objetivos-content">
+          <h3>Objetivos com mentalidade ágil</h3>
+          <p>
+            Busco ambientes que valorizam <strong>entrega contínua de valor</strong>, feedback rápido e
+            melhoria constante — os mesmos princípios das metodologias ágeis que aplico no dia a dia.
+          </p>
+          <ul class="objetivos-list">
+            <li><strong>Iterar e aprender</strong> — evoluir por ciclos curtos, validando ideias com usuários e dados reais.</li>
+            <li><strong>Colaborar de verdade</strong> — trabalhar lado a lado com produto, engenharia e stakeholders, sem silos.</li>
+            <li><strong>Priorizar impacto</strong> — focar no que gera resultado, não na quantidade de entregas.</li>
+            <li><strong>Adaptar-se com clareza</strong> — responder a mudanças com transparência, rituais e alinhamento de equipe.</li>
+          </ul>
+          <p>
+            Meu objetivo é crescer como Analista de Sistemas em times ágeis, contribuindo com
+            tecnologia, processos e cultura de melhoria contínua — sempre com foco em soluções reais.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Draw My Life -->
+  <section class="drawmylife section" id="drawmylife">
+    <div class="container">
+      <h2 class="section-title reveal">Draw My Work</h2>
+      <p class="section-subtitle reveal">Minha história contada em vídeo</p>
+      
+      <div class="video-wrapper reveal">
+        <!-- Substitua o src pelo seu vídeo do YouTube ou deixe o placeholder -->
+        <div class="video-container">
+          <iframe 
+            id="drawVideo"
+            src="DRAW MY WORK.mp4" 
+            title="Draw My WORK - Minha Trajetória"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+          <!-- Ou use <video> se preferir arquivo local:
+          <video controls poster="poster.jpg">
+            <source src="draw-my-life.mp4" type="video/mp4">
+          </video>
+          -->
+        </div>
+        <p class="video-note">
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Vamos Conversar?</h2>
+      <p class="section-subtitle reveal">Estou aberto a novas oportunidades e conexões</p>
+      
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:marceloemailmovel@gmail.com" class="contact-item">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </span>
+            <span>marceloemailmovel@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/marceloantonioalves/" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/marceloantonioalves/" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </span>
+            <span>GitHub / Behance</span>
+          </a>
+          <a href="https://wa.me/5535998037701" target="_blank" rel="noopener" class="contact-item">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </span>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+        
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <!-- Web3Forms -->
+          <input type="hidden" name="access_key" value="021d8276-94a0-47b4-ab7b-8fb17ce5ec56">
+          <input type="hidden" name="subject" value="Nova mensagem do Portfólio">
+          <input type="hidden" name="from_name" value="Portfólio">
+          <input type="checkbox" name="botcheck" style="display:none">
+
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Seu nome" autocomplete="name" />
+            <span class="error-msg" id="error-name"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Seu e-mail" autocomplete="email" />
+            <span class="error-msg" id="error-email"></span>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" rows="5" placeholder="Mensagem"></textarea>
+            <span class="error-msg" id="error-message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submitBtn">Enviar Mensagem</button>
+          <p class="form-note" id="formNote">As mensagens serão enviadas diretamente para o seu e-mail.</p>
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="success-icon">✓</div>
+            <h3>Mensagem enviada!</h3>
+            <p>Obrigado pelo contato. Responderei o mais breve possível.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Marcelo Alves.</p>
+      <p class="footer-note">Hospedado gratuitamente • Design moderno e responsivo</p>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
